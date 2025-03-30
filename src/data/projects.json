@@ -1,0 +1,44 @@
+[
+  {
+    "imgSrc": "/images/cokiexplorer1.png",
+    "title": "COKI Explorer",
+    "desc": "My final year university project, developing a research publication search engine using React and Redux.",
+    "techStack": "React • Redux • Firebase",
+    "link": "https://github.com/williamlwallace/coki-explorer"
+  },
+  {
+    "imgSrc": "/images/travelea.png",
+    "title": "TravelEA",
+    "desc": "Full stack travel/social media web application developed in a team of eight using agile methodologies during my third year at University.",
+    "techStack": "HTML5 • CSS • JavaScript • Java",
+    "link": "https://github.com/williamlwallace/travel-ea"
+  },
+  {
+    "imgSrc": "/images/crypto-bot.png",
+    "title": "CryptoBot",
+    "desc": "Discord bot and separate API that can be used to quickly retrieve crypto prices, data and more!",
+    "techStack": "Python • Node.js",
+    "link": "https://github.com/williamlwallace/crypto-bot"
+  },
+  {
+    "imgSrc": "/images/rogur.png",
+    "title": "rogur",
+    "desc": "rogur is a clone of the Uber app built using a MERN stack.",
+    "techStack": "React Native • Redux • Express • MongoDB",
+    "link": "https://github.com/williamlwallace/rogur"
+  },
+  {
+    "imgSrc": "/images/covidaily1.png",
+    "title": "COVIDaily",
+    "desc": "Simple android app built using Kotlin that retrieves and displays relevant statistics/news about COVID-19 in your country.",
+    "techStack": "Kotlin",
+    "link": "https://github.com/williamlwallace/covid-daily"
+  },
+  {
+    "imgSrc": "/images/pocketchef1.PNG",
+    "title": "PocketCHEF",
+    "desc": "Simple android app built using Kotlin that allows you to create, view and share cooking/baking recipes.",
+    "techStack": "Kotlin • Firebase",
+    "link": "https://github.com/williamlwallace/pocket-chef"
+  }
+]

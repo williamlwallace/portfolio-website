@@ -1,0 +1,29 @@
+@import './base';
+
+.about-card {
+  padding: 1rem;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-skills-title {
+  padding-top: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.about-description {
+  font-family: $secondary-font;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.about-icon {
+  margin: 1rem;
+}

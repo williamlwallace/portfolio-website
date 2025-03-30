@@ -1,0 +1,42 @@
+.project-card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  max-width: 70rem;
+}
+
+.project-card {
+  margin: 1rem;
+  max-width: 30rem;
+  background-color: var(--card-background);
+  color: var(--card-text);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card-img {
+  object-fit: cover;
+  max-height: 15rem;
+}
+
+.project-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.project-card-text {
+  font-family: $secondary-font;
+  font-weight: lighter;
+}
+
+.project-card-tech-stack {
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+.project-card-button {
+  float: right;
+  padding: 0 !important;
+  color: var(--button-text);
+}

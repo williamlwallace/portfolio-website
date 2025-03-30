@@ -1,0 +1,35 @@
+.experience-card {
+  display: grid;
+  grid-template-columns: 50rem 50rem;
+  gap: 2rem;
+  margin: 1rem;
+
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0rem;
+  }
+}
+
+.experience-date {
+  font-size: 1.2rem;
+  text-align: right;
+  color: $primary-color;
+  font-family: $secondary-font;
+
+  @media (max-width: 576px) {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.experience-company {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.experience-role {
+  font-size: 1.2rem;
+  font-family: $secondary-font;
+}

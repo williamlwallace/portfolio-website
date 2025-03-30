@@ -1,0 +1,22 @@
+$primary-color: #e70b81;
+$light: #fcfcfc;
+$dark: #212121;
+$transparent: rgba(0, 0, 0, 0);
+$primary-font: 'DM Sans', sans-serif;
+$secondary-font: 'Inconsolata', monospace;
+
+:root {
+  --background-color: #fcfcfc;
+  --text-color: #212121;
+  --card-background: #f5f5f5;
+  --card-text: #212121;
+  --button-text: #212121;
+}
+
+body.dark-mode {
+  --background-color: #212121;
+  --text-color: #fcfcfc;
+  --card-background: #323232;
+  --card-text: #fcfcfc;
+  --button-text: #fcfcfc;
+}

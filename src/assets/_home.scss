@@ -1,0 +1,45 @@
+.home-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 1rem;
+}
+
+.home-rotating-text {
+  font-family: $secondary-font;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 1rem;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.home-image {
+  padding: 1rem;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+
+  @media (max-width: 576px) {
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}
+
+.icon-button {
+  padding: 0.5rem;
+  &:hover {
+    color: $primary-color;
+  }
+}

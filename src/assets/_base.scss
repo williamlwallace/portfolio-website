@@ -1,0 +1,90 @@
+@import './variables';
+
+// body {
+//   font-family: $primary-font;
+//   &.light-mode {
+//     background-color: $light;
+//     color: $dark;
+//     transition: background-color 0.3s ease;
+
+//     .btn-icon {
+//       color: $dark;
+//     }
+
+//     .nav-link {
+//       color: $dark
+//     }
+
+//     .footer {
+//       color: rgba($dark, 0.25);
+//     }
+//   }
+
+//   &.dark-mode {
+//     background-color: $dark;
+//     color: $light;
+//     transition: background-color 0.3s ease;
+
+//     .btn-icon {
+//       color: $light;
+//     }
+
+//     .nav-link {
+//       color: $light
+//     }
+
+//     .footer {
+//       color: rgba($light, 0.25);
+//     }
+//   }
+// }
+
+// button {
+//   outline: none;
+
+//   &:focus {
+//     outline: 0 !important;
+//   }
+// }
+
+// .icon-button {
+//   text-decoration: none;
+//   padding: 0.5rem;
+//   &:hover {
+//     color: $primary-color;
+//   }
+// }
+
+body {
+  font-family: $primary-font;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  .btn-icon {
+    color: var(--text-color);
+  }
+
+  .nav-link {
+    color: var(--text-color);
+  }
+
+  .footer {
+    color: rgba(var(--text-color), 0.25);
+  }
+}
+
+button {
+  outline: none;
+  &:focus {
+    outline: 0 !important;
+  }
+}
+
+.icon-button {
+  text-decoration: none;
+  padding: 0.5rem;
+  &:hover {
+    color: $primary-color;
+  }
+}
